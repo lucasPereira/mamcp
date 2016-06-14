@@ -18,4 +18,13 @@ public class Carta {
 		return naipe.equals(carta.naipe);
 	}
 
+	@Override
+	public boolean equals(Object objeto) {
+		if (objeto instanceof Carta) {
+			Carta outra = (Carta) objeto;
+			return mesmoValor(outra) && mesmoNaipe(outra);
+		}
+		return super.equals(objeto);
+	}
+
 }
