@@ -16,6 +16,8 @@ public class TesteNaipe {
 		Iterator<Naipe> naipes = Arrays.asList(Naipe.values()).iterator();
 		assertEquals(Naipe.ESPADAS, naipes.next());
 		assertEquals(Naipe.COPAS, naipes.next());
+		assertEquals(Naipe.PAUS, naipes.next());
+		assertEquals(Naipe.OURO, naipes.next());
 		assertFalse(naipes.hasNext());
 	}
 

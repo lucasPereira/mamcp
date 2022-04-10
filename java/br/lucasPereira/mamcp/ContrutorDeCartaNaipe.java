@@ -16,4 +16,12 @@ public class ContrutorDeCartaNaipe {
 		return new Carta(valor, Naipe.COPAS);
 	}
 
+	public Carta paus() {
+		return new Carta(valor, Naipe.PAUS);
+	}
+
+	public Carta ouro() {
+		return new Carta(valor, Naipe.OURO);
+	}
+
 }

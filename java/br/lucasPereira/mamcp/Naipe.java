@@ -2,6 +2,6 @@ package br.lucasPereira.mamcp;
 
 public enum Naipe {
 
-	ESPADAS, COPAS
+	ESPADAS, COPAS, PAUS, OURO
 
 }
